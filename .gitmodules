@@ -1,3 +1,6 @@
 [submodule "themes/hugo-identity-theme"]
 	path = themes/hugo-identity-theme
 	url = https://github.com/aerohub/hugo-identity-theme
+[submodule "bandana233.github.io"]
+	path = bandana233.github.io
+	url = https://github.com/bandana233/bandana233.github.io.git
