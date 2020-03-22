@@ -1,0 +1,131 @@
+baseURL = ""
+relativeurls = true
+languageCode = "en-us"
+title = "Bandana Shrestha"
+
+theme = "hugo-identity-theme"
+copyright = ""
+publishdir = "bandana233.github.io"
+	name = "Author Name"
+	blog = "/:year/:month/:filename/"
+	code = "/:filename/"
+	tag = "tags"
+	series = "series"
+	series-desc = "series-desc"
+  description = "Biotechnologist Bandana Shrestha"
+	twitter = "https://twitter.com/xyz"
+	github = "https://github.com/xyz"
+	disqus = ""
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "404"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-161550941-1"
+
+[params]
+
+  # Images settings
+  [params.personal]
+    name = "Bandana Shrestha"
+    avatar = "bandana-lab.jpg"
+    position = "Biotechnologist"
+    livesIn = "[Kogarah, NSW, Australia](#some-maps-url)"
+    scope = [
+        "Master of Science in Medical Biotechnology",
+        "Graduated from UTS [University of Techonology Sydney] in 2020"
+      ]
+    biography = """Bandana Shrestha is plain awesome. She dreams to
+use biological organisms to develop or make innovative products designed to improve health, food and the world around us."""
+
+  [params.contact]
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    email = "your@email.com"
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+
+    #postURL = "https://example.com/mailout/"
+
+    enable = false
+    title = "Touch Me!"
+    namePlaceholder = "Name"
+    emailPlaceholder = "Email"
+    messagePlaceholder = "Message"
+    buttonText = "Send it"
+    success = "Thank you for contacting us."
+    error = "Message could not be send. Please contact us at "
+
+    # Google invisible captcha
+    #[params.contact.captcha]
+    #  sitekey = ""
+
+
+    # Add optional form fields to identify contact forms.
+    #[[params.contact.fields.hidden]]
+    #  name = "someID"
+    #  value = "example.com"
+
+    #[[params.contact.fields.hidden]]
+    # Special values for name such as "page" and "site" will be autofilled
+    #  name = "page"
+
+  # Social settings
+  # You may change these with your social links or add others
+
+  [[params.social]]
+    title = "Linked-In"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/bandana-shrestha-biotech/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/bandana233"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram"
+    link = "https://www.instagram.com/shrestha_bandana/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://www.facebook.com/bandana.shrestha.biotech"
+    target = "_blank"
+
+  # Footer settings
+  [params.footer]
+    # If copyright is not set, author is used
+    #copyright = "Innovation inc"
+    copyright = "Copyright 2020"
+
+  # Page license
+  [params.license]
+    #link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    #name = "CC-BY-SA-4.0"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
